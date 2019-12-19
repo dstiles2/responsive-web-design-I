@@ -123,8 +123,7 @@ header .navigation nav {
 	font-size: 70px;
     margin-left: 10%;
     width: auto;
-    height: auto;
-	padding-bottom: 10%;
+	height: auto;
 }
 
 .headline .title {
@@ -150,7 +149,7 @@ header .navigation nav {
 .upper_information {
 	margin: 20px;
 	padding: 20px;
-	/*border: solid 1px black;*/
+	border-bottom: solid 1px black;
 }
 div.col-upper-container {
 	display: inline-block;
@@ -177,7 +176,7 @@ div.col-sub-container {
 	flex-direction: column;
 	margin: 20px;
 	justify-content: center;
-	/*border: solid 1px black;*/
+	border-bottom: solid 1px black;
 }
 div.col-lower-container {
 	display: flex;
