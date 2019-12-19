@@ -208,3 +208,20 @@ footer {
 	bottom: 0;
 }
 
+/*Mobile Media Query*/
+
+@media(max-width:500px) {
+
+
+
+}
+
+
+/*Tablet Media Query*/
+
+@media(max-width:800px) {
+
+
+
+	
+}
