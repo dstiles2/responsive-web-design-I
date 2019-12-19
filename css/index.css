@@ -110,20 +110,17 @@ header .navigation nav {
     flex-direction: row;
     box-sizing: border-box;
     justify-content: space-between;
-    justify-self: center;
-    align-items: center;
 	width: 80%;
-	border: 2px solid black;
+	margin: 0 auto;
 }
 
 .title_section .headline {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     text-align: center;
-    justify-content: space-around;
-    align-content: space-around;
-    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+	font-size: 70px;
     margin-left: 10%;
     width: auto;
     height: auto;
@@ -131,8 +128,8 @@ header .navigation nav {
 }
 
 .headline .title {
-    display: flex;
-    border: 2px solid black;
+	display: flex;
+	align-items: center;
 }
 
 .headline .button {
@@ -144,7 +141,6 @@ header .navigation nav {
 }
 
 .title_section .image {
-	border: 2px solid black;
     display: flex;
     justify-content: flex-end;
     width: auto;
