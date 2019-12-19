@@ -67,66 +67,72 @@ h1, h2, h3, h4, h5 {
 
 
 /*Page*/
-header {
-	height: 30%;
-}
 body {
 	margin: 2.5%;
 }
 
 /*Heading*/
-header div {
-	display: flex;
-	justify-content: space-around;
+header {
+    width: 100%;
+    /*border: solid 2px black;*/
+    margin-bottom: 7%;
+}
+
+header .navigation {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 	margin: 5px;
     padding: 5px;
-    border: solid 2px black;
+    /*border: solid 2px black;*/
+    width: 100%;
 }
 
-header nav {
+header .navigation nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	width: 83%;
+    width: 60%;
+   /*border: solid 2px black;*/
+    color: lightgray;
 }
 
-header nav a {
-	width: 15%;
-	text-align: center;
-	color: lightgray;
+ header .navigation .nav-image {
+    display: flex;
+	width: 20%;
+	align-items: flex-end;
+    /*border: solid 2px black;*/
 }
 
 /*Title*/
 .title_section {
 	display: flex;
-	flex-direction: column;
-	height: 100vh;
+	flex-direction: row;
+	justify-content: space-around;
 	width: 100%;
 	/*border: 2px solid black;*/
 }
-.title_section h1 {
+.title_section .title {
 	display: flex;
-	/*border: 2px solid black;*/
-	font-size: 60px;
-	width: 30%;
-	height: 10px;
-	text-align: center;
-	box-sizing: content-box;
+    /*border: 2px solid black;*/
+    text-align: center;
+    align-items: center;
+	font-size: 70px;
+	width: 20%;
 	padding-bottom: 10%;
-	margin-left: 100px;
-}
-.title_section a {
-	/*border: 2px solid black;*/
-	display: flex;
-
 }
 
-.title_section div {
-	display: flex;
+.title_section .button {
+    display: flex;
+   /*border: 2px solid black;*/
+    font-size: 20px;
+}
+
+.title_section .image {
 	/*border: 2px solid black;*/
-	margin-left: 400px;
-	margin-bottom: 900px;
-	justify-content: right;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
 }
 
 /* Upper Information */
