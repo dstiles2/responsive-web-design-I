@@ -67,8 +67,12 @@ h1, h2, h3, h4, h5 {
 
 
 /*Page*/
-body {
+/*body {
 	margin: 2.5%;
+}*/
+container {
+	width: 1000px;
+	margin: 0 auto;
 }
 
 /*Heading*/
@@ -225,10 +229,53 @@ footer {
 
 @media (max-width: 500px) {
 	.container {
-		width: 50%;
+		width: 350px;
+		margin: 0 auto;
+	}
+	.navigation {
+		flex-direction: column-reverse;
+	}
+	.title_section {
+		flex-direction: column-reverse;
+	}
+	.upper_information {
 		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+	}
+	.divider {
+		width: 0 auto;
+	}
+	.lower_information {
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
 	}
 }
 
-
 /*Tablet Media Query*/
+@media (max-width: 800px){
+	.container {
+		width: 550px;
+		margin: 0 auto;
+	}
+	.navigation {
+		flex-direction: column-reverse;
+	}
+	.title_section {
+		flex-direction: column-reverse;
+	}
+	.upper_information {
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+	}
+	.divider {
+		width: 0 auto;
+	}
+	.lower_information {
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+	}
+}
