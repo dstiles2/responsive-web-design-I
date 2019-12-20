@@ -97,7 +97,7 @@ header .navigation nav {
     color: lightgray;
 }
 
- header .navigation .nav-image {
+header .navigation .nav-image {
     display: flex;
 	width: 20%;
 	align-items: flex-end;
@@ -146,19 +146,25 @@ header .navigation nav {
 }
 
 /* Upper Information */
-.upper_information {
+.upper {
+	display: flex;
+	flex-direction: row;
 	margin: 20px;
 	padding: 20px;
 	border-bottom: solid 1px black;
+	align-content: space-between;
 }
-div.col-upper-container {
-	display: inline-block;
-	width: 100%;
-}
-div.col-sub-container {
-	display: inline-block;
+.upper .upper-subA {
+	display: flex;
+	flex-direction: column;
 	width: 47%;
-	margin: 1%;
+	margin-right: 2%;
+}
+.upper .upper-subB {
+	display: flex;
+	flex-direction: column;
+	width: 47%;
+	margin-left: 2%;
 }
 
 /*Divider*/
@@ -171,37 +177,44 @@ div.col-sub-container {
 }
 
 /*Lower Information*/
-.lower_information {
+.lower {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	margin: 20px;
-	justify-content: center;
+	padding-bottom: 1%;
+	align-content: space-between;
 	border-bottom: solid 1px black;
 }
-div.col-lower-container {
+.lower .lower-subA {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	width: 100%;
-	padding-top: 2%;
+	padding-top: 1%;
 }
-div.col-sub2-container {
-	display: inline-block;
-	width: 30%;
-	margin: 1%;
+.lower .lower-subB {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 1%;
+}
+.lower .lower-subC {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 1%;
 }
 
 /*Contact*/
 .Contact {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
 	padding: 3%;
-	/*border: 2px solid black;*/
 }
 
 
 
 /*Footer Section*/
 footer {
-	/*border: 2px solid black;*/
 	width: 100%;
 	text-align: center;
 	position: relative;
@@ -210,18 +223,12 @@ footer {
 
 /*Mobile Media Query*/
 
-@media(max-width:500px) {
-
-
-
+@media (max-width: 500px) {
+	.container {
+		width: 50%;
+		flex-direction: column;
+	}
 }
 
 
 /*Tablet Media Query*/
-
-@media(max-width:800px) {
-
-
-
-	
-}
