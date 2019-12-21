@@ -265,13 +265,16 @@ footer {
 	.title_section {
 		flex-direction: column-reverse;
 	}
+	.title_section img {
+		display: none;
+	}
 	.upper_information {
 		flex-direction: column;
 		justify-content: space-between;
 		text-align: center;
 	}
 	.divider {
-		width: 0 auto;
+		width: 50%;
 	}
 	.lower_information {
 		flex-direction: column;
